@@ -1,0 +1,39 @@
+{
+  "name": "node-hw-01-cli-application",
+  "version": "1.0.0",
+  "description": "CLI application",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "Roxana Necsoi",
+    "email": "radu.roxana07@gmail.com",
+    "url": "https://github.com/roxananecsoi/node-hw-01-cli-application"
+  },
+  "contributors": [],
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "dev": "",
+    "test": ""
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.7.2"
+  }
+}
